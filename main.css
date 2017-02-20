@@ -1,0 +1,58 @@
+
+html {
+  margin: 0; padding: 0;
+  width: 100%; height: 100%;
+}
+
+body {
+  background-color: #000000;
+  background-image: url(media/PIA07773_full.jpg);
+}
+
+.splash {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  padding-top: 200px;
+  background: #000000;
+  color: #565555;
+  font-family: Helvetica, sans-serif;
+  font-size: 72px;
+  text-align: center;
+  z-index: 1;
+
+  transition: opacity 0.5s;
+}
+
+.state-indicator {
+  position: fixed;
+  top: 5px; right: 5px;
+  color: #f00;
+  font-family: monospace;
+  font-size: 40px;
+}
+
+.list-header {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.photo-list {
+  list-style: none;
+  margin: 0; padding: 0;
+}
+
+.photo-list li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.photo-list li img {
+  width: 400px;
+}
+
+.cool-vid {
+  margin: 10px;
+  width: 400px;
+  transform-origin: 0 0;
+}
